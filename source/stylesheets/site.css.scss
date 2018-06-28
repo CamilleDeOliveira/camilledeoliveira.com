@@ -1,3 +1,4 @@
+/*
 body {
   background-color: #d8d8d8;
   color: grey;
@@ -5,8 +6,6 @@ body {
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Panama",
     "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
-  text-align: center;
 }
 
 a {
@@ -18,7 +17,31 @@ a {
   }
 }
 
-.middleman-logo {
-  margin-bottom: -1rem;
-  width: 30rem;
+*/
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+*:focus{
+  outline: none;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  background: #000;
+  color: white;
+  font-family: "Panama", sans-serif;
+  overflow-y: hidden;
+}
+
+a{
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
 }
