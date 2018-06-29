@@ -32,7 +32,7 @@ a {
 body{
   padding: 0;
   margin: 0;
-  background: #000;
+  background: #fff;
   color: white;
   font-family: "Panama", sans-serif;
   overflow-y: hidden;
@@ -57,7 +57,11 @@ img {
 
 aside{
   position: fixed;
-  background: #888;
+  background-image: linear-gradient(blue, purple);
+
+    /* Obligatoire si on veut "voir" le dégradé */
+  width: 400px;
+  height: 300px;
   top: 0px;
   left: 0px;
   width: 180px;
@@ -131,7 +135,7 @@ header h5{
   font-weight: 300;
   font-size: 1em;
   letter-spacing: 4px;
-  color: #b2b2b2;
+  color: #000;
 }
 
 .about,
@@ -155,7 +159,7 @@ header h5{
 }
 
 .about p{
-  color: #b2b2b2
+  color: #000
 }
 
 .about span{
@@ -208,6 +212,8 @@ header h5{
   width: 70%;
 }
 
+//
+
 .col p{
   text-align: center;
   max-width: 980px;
@@ -219,7 +225,10 @@ header h5{
   line-height: 30px;
 }
 
-
+span{
+  text-align: center;
+  max-width: 980px;
+}
 
 
 
