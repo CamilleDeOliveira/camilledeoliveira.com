@@ -24,8 +24,8 @@ body a:hover
     position: fixed;
     left: 0px;
     top: 0px;
-    width: 100%;
-    height: 100%;
+    width: 200%;
+    height: 200%;
     z-index: 99999;	
     background-color: #fff;
 }
@@ -214,13 +214,13 @@ body a:hover
 
 .section-content-holder .content-title
 {
-    font-family: 'Montserrat';
-    font-weight: 700;
+    font-family: 'PANAMA';
+    font-weight: 500;
     text-align: center;
-    font-size: 180px;
+    font-size: 100px;
     line-height: 100%;
     text-transform: uppercase;
-    margin-top: -75px;
+    margin-top: 15px;
     color: #221c5a;    
 }
 
@@ -673,7 +673,7 @@ div.pp_default .pp_loaderIcon
     width: 235px;
 }
 
-.blog-item-holder .info .cat-links a 
+.blog-item-holder .info .cat-links p
 {
     color: #ee87a4;
     text-transform: uppercase;
@@ -697,6 +697,16 @@ div.pp_default .pp_loaderIcon
     -ms-transition: color 0.5s ease;
     -o-transition: color 0.5s ease;
     transition: color 0.5s ease;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 700;
+    display: block;
+    line-height: 20px;
+}
+
+.blog-holder .entry-title p
+{    
+
     font-size: 18px;
     line-height: 100%;
     font-weight: 700;
