@@ -269,13 +269,13 @@ body a:hover
 
 .top-logo
 {
-    width: 160px !important;    
-    padding-top: 150px;
+    width: 300px !important;    
+    padding-top: 80px;
 }
 
 h1.big-title
 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Panama', bold;
     font-size: 56px;
     font-weight: 700;
     line-height: 100%;
@@ -296,8 +296,8 @@ h1.big-title
 {
     font-family: 'PT Serif', serif;
     font-size: 22px;
-    line-height: 26px;
-    max-width: 333px; 
+    line-height: 40px;
+    max-width: 600px; 
     margin: 0 auto;
     color: #fff;
 }
