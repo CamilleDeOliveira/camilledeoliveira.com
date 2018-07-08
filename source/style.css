@@ -149,7 +149,7 @@ body a:hover
 
 .section-title-holder
 {
-    background-color: #32DB8A;
+    background-color: #00F2FF;
     width: 370px;
     height: 370px;    
     z-index: 2;
@@ -158,7 +158,7 @@ body a:hover
 .section-num span
 {    
     margin-left: -64px;
-    color: #55B286;
+    color: #00C7D1;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 180px;
@@ -323,12 +323,12 @@ h1.big-title
 
 #services .section-title-holder
 {
-    background-color: #32DB8A
+    background-color: #00F2FF
 }
 
 #services .section-title-holder span
 {
-    color: #55B286;
+    color: #00C7D1;
 }
 
 .service-holder 
@@ -377,7 +377,7 @@ h1.big-title
 
 #portfolio .section-title-holder
 {
-    background-color: rgb(255, 186, 66);
+    background-color: #ffe500;
 }
 
 #portfolio .section-title-holder span
@@ -664,7 +664,7 @@ div.pp_default .pp_loaderIcon
     width: 110px;
     font-size: 48px;
     font-weight: 900;
-    color: #32db89;
+    color: #00F2FF;
 }
 
 .blog-item-holder .info 
@@ -726,7 +726,7 @@ div.pp_default .pp_loaderIcon
     font-weight: 700;    
     font-size: 16px;
     line-height: 100%;    
-    color: #32db89;
+    color: #00F2FF;
     letter-spacing: 5px;
     border-bottom: 2px solid;
     padding-left: 5px;
@@ -773,7 +773,7 @@ div.pp_default .pp_loaderIcon
 
 #video .section-title-holder
 {
-    background-color: rgb(255, 186, 66);
+    background-color: #ffe500;
 }
 
 #video .section-title-holder span
