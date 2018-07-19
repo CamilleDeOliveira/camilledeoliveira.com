@@ -1308,7 +1308,7 @@ footer
 
     .section-content-holder .content-title 
     {    
-        font-size: 140px;    
+        font-size: 80px;    
         margin-top: -56px;
     }
 
@@ -1316,6 +1316,18 @@ footer
     {
         width: 275px;
         padding: 50px;
+    }
+
+    .progress_bar_title
+    {
+    
+    font-size: 30px;
+    }
+
+    .progress_bar_percent_text
+    {
+    
+    font-size: 20px;
     }
 
     .member-image-holder 
@@ -1543,7 +1555,7 @@ footer
 
     .section-content-holder .content-title 
     {
-        font-size: 19vw;
+        font-size: 13vw;
         margin-top: 0;
     }
 
