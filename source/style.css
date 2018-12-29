@@ -6,7 +6,7 @@
 
 body
 {
-    font-family: 'Montserrat';
+    font-family: 'Helvetica';
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
@@ -166,7 +166,7 @@ body a:hover
 {    
     margin-left: -64px;
     color: #00C7D1;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Helvetica';
     font-weight: 700;
     font-size: 180px;
     line-height: 100%;
@@ -175,7 +175,7 @@ body a:hover
 
 .section-title-holder h2
 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Helvetica';
     font-weight: 700;
     font-size: 45px;
     width: 45px;
@@ -298,7 +298,7 @@ h1.big-title
 .title-desc
 {
     font-family: 'helvetica';
-    font-size: 22px;
+    font-size: 20px;
     line-height: 40px;
     max-width: 600px; 
     margin: 0 auto;
@@ -356,7 +356,7 @@ h1.big-title
 
 .service-title 
 {
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Helvetica'; 
     font-size: 24px;
     padding-bottom: 10px;
 }
@@ -401,7 +401,7 @@ h1.big-title
 
 .portfolio-holder .portfolio-load-more-holder
 {
-    font-family: 'Montserrat', sans-serif;    
+    font-family: 'Helvetica';    
     font-weight: 700;
     font-size: 20px;
     width: 430px;
@@ -518,7 +518,7 @@ h1.big-title
 
 .portfolio-text
 {
-    font-family: 'Montserrat', sans-serif;    
+    font-family: 'Helvetica';    
     font-weight: 700;
     font-size: 20px;
     line-height: 18px;
@@ -528,7 +528,7 @@ h1.big-title
 
 .portfolio-sec-text
 {
-    font-family: 'Montserrat', sans-serif;    
+    font-family: 'Helvetica';    
     font-weight: 700;
     font-size: 16px;
     line-height: 100%;
@@ -620,7 +620,7 @@ div.pp_default .pp_loaderIcon
     line-height: 16px;
     font-size: 14px;
     padding-bottom: 50px;
-    color: red;
+    color: #ee87a4;
     letter-spacing: 1px;
 }
 
@@ -724,7 +724,7 @@ div.pp_default .pp_loaderIcon
 
 .latest-post-bottom-text a 
 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Helvetica';
     font-weight: 700;    
     font-size: 16px;
     line-height: 100%;    
@@ -746,7 +746,7 @@ div.pp_default .pp_loaderIcon
     font-size: 22px;
     line-height: 40px;  
     padding-top: 20px;  
-    font-family:'Montserrat', sans-serif;
+    font-family:'Helvetica';
 }
 
 .testimonial-author
@@ -775,12 +775,12 @@ div.pp_default .pp_loaderIcon
 
 #video .section-title-holder
 {
-    background-color: #FF8AFF;
+    background-color: #00F2FF;
 }
 
 #video .section-title-holder span
 {
-    color: #D171D1;
+    color: #00C7D1;
 }
 
 #video .section-content-holder
@@ -960,122 +960,11 @@ p.custom-field-class
     margin-bottom: 60px;
 }
 
-.contact-form input[type=text], .contact-form input[type=email], .contact-form textarea
+.one_half p
 {
-    color: #23214c;
-    border: 0;
-    border-bottom: 1px solid #1c1c1c;
-    height: 28px;    
-    font-size: 16px;
-    font-weight: 400;
-    font-family: 'Roboto', sans-serif;
-    width: 100%;
-    line-height: 25px;
-    padding: 0;
-}
-
-.contact-form input[type=text]::-webkit-input-placeholder, .contact-form input[type=email]::-webkit-input-placeholder, .contact-form textarea::-webkit-input-placeholder
-{
-    font-family: 'Roboto', sans-serif;
-    color: #23214c;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
-}
-.contact-form input[type=text]::-moz-placeholder, .contact-form input[type=email]::-moz-placeholder, .contact-form textarea::-moz-placeholder
-{
-    font-family: 'Roboto', sans-serif;
-    color: #23214c;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
-    opacity: 1;
-}
-.contact-form input[type=text]:-ms-input-placeholder, .contact-form input[type=email]:-ms-input-placeholder, .contact-form textarea:-ms-input-placeholder
-{
-    font-family: 'Roboto', sans-serif;
-    color: #23214c;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
-}
-.contact-form input[type=text]:-moz-placeholder, .contact-form input[type=email]:-moz-placeholder, .contact-form textarea:-moz-placeholder
-{
-    font-family: 'Roboto', sans-serif;
-    color: #23214c;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
-    opacity: 1;
-}
-
-.contact-form input[type=text], .contact-form input[type=email]
-{
-    padding-bottom: 5px;
-    margin-bottom: 25px;
-}
-
-.contact-form textarea
-{
-    -webkit-transition: all 0.3s linear;
-    -moz-transition: all 0.3s linear;
-    -ms-transition: all 0.3s linear;
-    -o-transition: all 0.3s linear;
-    transition: all 0.3s linear;
-    padding-top: 13px;
     overflow: hidden;
-    padding-bottom: 5px;
+    width: 700px;
 }
-
-.contact-form textarea:focus
-{
-    height: 150px;
-    overflow: auto;
-}
-
-.contact-form input[name="your-name"]
-{
-    margin-top: 0;
-    padding-top: 0;
-}
-
-.contact-form input[type=submit]
-{	
-    color: #e54b76;
-    display: inline-block;
-    border: 2px solid #e54b76;
-    text-align: center;
-    padding: 12px 0px;
-    cursor: pointer;
-    margin-top: 30px;
-    vertical-align: middle;
-    text-decoration: none;
-    background: transparent;
-    font-family: 'Roboto', sans-serif;
-    width: 100%;
-    text-transform: uppercase;
-    font-size: 16px;
-    transition: all .2s linear;
-}
-
-.contact-form input[type=submit]:hover
-{
-    color: white;
-    background-color: #e54b76;
-}
-
-div.contact-form-response-output
-{
-    margin: 0;
-    font-size: 14px;
-    line-height: 20px;
-}
-
-span.contact-form-not-valid-tip
-{
-    font-size: 10px;
-}
-
 /* END CONTACT SECTION */
 
 
