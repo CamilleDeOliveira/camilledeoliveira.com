@@ -1,3 +1,9 @@
+@font-face 
+{
+    font-family: "Panama";
+    src: url('Panama-Bold.otf');
+}
+
 body
 {
     font-family: 'Montserrat';
@@ -63,6 +69,7 @@ body a:hover
 
 
 /* TOP MENU */
+
 
 .menu-wrapper
 {    
@@ -210,7 +217,7 @@ body a:hover
 
 .section-content-holder .content-title
 {
-    font-family: 'PANAMA';
+    font-family: 'Panama';
     font-weight: 500;
     text-align: center;
     font-size: 100px;
@@ -271,7 +278,7 @@ body a:hover
 
 h1.big-title
 {
-    font-family: 'Panama', bold;
+    font-family: 'helvetica';
     font-size: 56px;
     font-weight: 700;
     line-height: 100%;
@@ -290,7 +297,7 @@ h1.big-title
 
 .title-desc
 {
-    font-family: 'Montserrat';
+    font-family: 'helvetica';
     font-size: 22px;
     line-height: 40px;
     max-width: 600px; 
@@ -343,7 +350,6 @@ h1.big-title
 .service-content-holder 
 {
     display: inline-block;
-    width: 240px;
     margin-top: 55px;
     margin-left: 5px;
 }
@@ -614,7 +620,7 @@ div.pp_default .pp_loaderIcon
     line-height: 16px;
     font-size: 14px;
     padding-bottom: 50px;
-    color: #ee87a4;
+    color: red;
     letter-spacing: 1px;
 }
 
